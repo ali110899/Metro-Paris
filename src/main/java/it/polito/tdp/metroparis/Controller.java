@@ -71,7 +71,7 @@ public class Controller {
     public void setModel(Model m) {
     	this.model = m;
     	
-    	//abbiamo popolati i due bos fermate di tutte le fermate possibili
+    	//abbiamo popolati i due box fermate di tutte le fermate possibili
     	List<Fermata> fermate = this.model.getAllFrmate(); 
     	boxPartenza.getItems().setAll(fermate);
     	boxArrivo.getItems().setAll(fermate);
